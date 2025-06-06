@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: #f8f8f8;
+    color: #333;
+  }
+  
+  header {
+    background: #0d47a1;
+    padding: 40px;
+    box-shadow: grey 5px 6px;
+    text padding: 5px;
+    text-align: left;
+    text-shadow: #333 red;
+  }
+  
+  .logo {
+    color: #fff;
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: #333;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+    float: right;
+    padding: ;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-top: auto;
+    text font-weight: 5px;
+  }
+  
+  .hero {
+    background: url('https://source.unsplash.com/1600x600/?travel,india') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 6rem 2rem;
+  }
+  
+  .hero .btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.75rem 1.5rem;
+    background: #ff6f00;
+    color: white;
+    box-shadow: green 3px 4px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .packages {
+    padding: 3rem 2rem;
+    text-align: center;
+    background: #fff;
+  }
+  
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5rem;
+    margin-top: 2rem;
+  }
+  
+  .card {
+    background: #f1f1f1;
+    border-radius: 10px;
+    width: 300px;
+    padding-bottom: 1rem;
+    box-shadow:7px 9px rgb(35, 35, 145)
+  }
+  
+  .card img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .card h3 {
+    margin: 1rem 0 0.5rem;
+  }
+  
+  .contact {
+    padding: 3rem 2rem;
+    background: #e3f2fd;
+    text-align: center;
+  }
+  
+  .contact form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+    gap: 1rem;
+  }
+  
+  .contact input,
+  .contact textarea {
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contact button {
+    padding: 0.75rem;
+    background: #0d47a1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  footer {
+    background: #0d47a1;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+  }
+  
